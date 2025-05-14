@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=devcie-width, initial-scale=0.1">
+        <title>ПрофНавигатор: Автоматический анализ резюме</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Определение подходящей профессии</h1>
+        <p class="subtitle">Введите ваши ключевые навыки</p>
+
+        <div class="skills-container" id="skillsContainer"></div>
+
+        <button id="addSkillBtn" class="btn add-btn">+ Добавить навык</button>   
+
+        <div class="actions">
+            <button id="submitBtn" class="btn submiit-btn">Определить профессию</button>
+        </div>
+
+        <div class="result-container" id="resultContainer">
+            <h2>Результат:</h2>
+            <div id="resultOutput" class="result-output"></div>
+        </div>
+    </div>
+
+    <script src="skills.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
